@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341B512013DA91DD00272018 /* Games.plist in Resources */ = {isa = PBXBuildFile; fileRef = 341B511F13DA91DD00272018 /* Games.plist */; };
+		345D8DFD13E91D4700B0EF11 /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 345D8DFB13E91D4700B0EF11 /* gameboard.png */; };
+		345D8DFE13E91D4700B0EF11 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 345D8DFC13E91D4700B0EF11 /* gameboard@2x.png */; };
+		3465BD5513ECB4C200B8A9E8 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD4F13ECB4C200B8A9E8 /* one.png */; };
+		3465BD5613ECB4C200B8A9E8 /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD5013ECB4C200B8A9E8 /* two.png */; };
+		3465BD5713ECB4C200B8A9E8 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD5113ECB4C200B8A9E8 /* three.png */; };
+		3465BD5813ECB4C200B8A9E8 /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD5213ECB4C200B8A9E8 /* four.png */; };
+		3465BD5913ECB4C200B8A9E8 /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD5313ECB4C200B8A9E8 /* five.png */; };
+		3465BD5A13ECB4C200B8A9E8 /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD5413ECB4C200B8A9E8 /* six.png */; };
+		3465BD6D13ECC0FD00B8A9E8 /* one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD6713ECC0FD00B8A9E8 /* one@2x.png */; };
+		3465BD6E13ECC0FD00B8A9E8 /* two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD6813ECC0FD00B8A9E8 /* two@2x.png */; };
+		3465BD6F13ECC0FD00B8A9E8 /* three@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD6913ECC0FD00B8A9E8 /* three@2x.png */; };
+		3465BD7013ECC0FD00B8A9E8 /* four@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD6A13ECC0FD00B8A9E8 /* four@2x.png */; };
+		3465BD7113ECC0FD00B8A9E8 /* five@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD6B13ECC0FD00B8A9E8 /* five@2x.png */; };
+		3465BD7213ECC0FD00B8A9E8 /* six@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3465BD6C13ECC0FD00B8A9E8 /* six@2x.png */; };
+		3482122113D66310006CA6BD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3482122013D66310006CA6BD /* GameViewController.m */; };
+		3488615113ECCBCF00BA3628 /* wagerboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615013ECCBCF00BA3628 /* wagerboard@2x.png */; };
+		3488615413ECCC5F00BA3628 /* wagerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615313ECCC5F00BA3628 /* wagerboard.png */; };
+		3488615B13ECD1B500BA3628 /* sixDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615513ECD1B500BA3628 /* sixDark@2x.png */; };
+		3488615C13ECD1B500BA3628 /* fiveDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615613ECD1B500BA3628 /* fiveDark@2x.png */; };
+		3488615D13ECD1B500BA3628 /* fourDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615713ECD1B500BA3628 /* fourDark@2x.png */; };
+		3488615E13ECD1B500BA3628 /* threeDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615813ECD1B500BA3628 /* threeDark@2x.png */; };
+		3488615F13ECD1B500BA3628 /* twoDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615913ECD1B500BA3628 /* twoDark@2x.png */; };
+		3488616013ECD1B500BA3628 /* oneDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488615A13ECD1B500BA3628 /* oneDark@2x.png */; };
+		3491537E13D94AEC00497441 /* GameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3491537D13D94AEC00497441 /* GameTableViewCell.m */; };
+		34A24D2C13E7D775005979F3 /* WagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A24D2B13E7D775005979F3 /* WagerViewController.m */; };
+		34B1EFBE13EB7E0700EAF119 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B1EFBD13EB7E0700EAF119 /* AVFoundation.framework */; };
+		34B1EFCE13EC70B500EAF119 /* win.caf in Resources */ = {isa = PBXBuildFile; fileRef = 34B1EFCD13EC70B500EAF119 /* win.caf */; };
+		34B1EFD513EC7D3B00EAF119 /* roll.caf in Resources */ = {isa = PBXBuildFile; fileRef = 34B1EFD413EC7D3B00EAF119 /* roll.caf */; };
+		34B1EFD713EC7DA900EAF119 /* drop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 34B1EFD613EC7DA900EAF119 /* drop.caf */; };
+		34C5998E13EC9DF6009017AA /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C5998D13EC9DF6009017AA /* default@2x.png */; };
+		34C5999013EC9E35009017AA /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C5998F13EC9E35009017AA /* default.png */; };
+		34C5999213EC9E50009017AA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C5999113EC9E50009017AA /* icon@2x.png */; };
+		34C5999413EC9E7F009017AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C5999313EC9E7F009017AA /* icon.png */; };
+		34C716C213D22AB500DBB7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C716C113D22AB500DBB7C6 /* UIKit.framework */; };
+		34C716C413D22AB500DBB7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C716C313D22AB500DBB7C6 /* Foundation.framework */; };
+		34C716C613D22AB500DBB7C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C716C513D22AB500DBB7C6 /* CoreGraphics.framework */; };
+		34C716CC13D22AB500DBB7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34C716CA13D22AB500DBB7C6 /* InfoPlist.strings */; };
+		34C716CE13D22AB500DBB7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C716CD13D22AB500DBB7C6 /* main.m */; };
+		34C716D213D22AB500DBB7C6 /* BackAlleyDiceShooterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C716D113D22AB500DBB7C6 /* BackAlleyDiceShooterAppDelegate.m */; };
+		34C716D513D22AB500DBB7C6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C716D313D22AB500DBB7C6 /* MainStoryboard.storyboard */; };
+		34C716D713D22AB500DBB7C6 /* GameBoardViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 34C716D613D22AB500DBB7C6 /* GameBoardViewController.h */; };
+		34C716D913D22AB500DBB7C6 /* GameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C716D813D22AB500DBB7C6 /* GameBoardViewController.m */; };
+		34C716E113D22AB500DBB7C6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C716E013D22AB500DBB7C6 /* SenTestingKit.framework */; };
+		34C716E213D22AB500DBB7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C716C113D22AB500DBB7C6 /* UIKit.framework */; };
+		34C716E313D22AB500DBB7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C716C313D22AB500DBB7C6 /* Foundation.framework */; };
+		34C716E413D22AB500DBB7C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C716C513D22AB500DBB7C6 /* CoreGraphics.framework */; };
+		34C716EC13D22AB500DBB7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34C716EA13D22AB500DBB7C6 /* InfoPlist.strings */; };
+		34C716EE13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 34C716ED13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.h */; };
+		34C716F013D22AB500DBB7C6 /* BackAlleyDiceShooterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C716EF13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.m */; };
+		34C716FB13D22B6000DBB7C6 /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C716FA13D22B6000DBB7C6 /* Die.m */; };
+		34C7170A13D2E11E00DBB7C6 /* GameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C7170913D2E11E00DBB7C6 /* GameEngine.m */; };
+		97EA377F1E37ADDF00462072 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EA377E1E37ADDF00462072 /* Media.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34C716E513D22AB500DBB7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34C716B413D22AB500DBB7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34C716BC13D22AB500DBB7C6;
+			remoteInfo = BackAlleyDiceShooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		341B511F13DA91DD00272018 /* Games.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Games.plist; sourceTree = "<group>"; };
+		345D8DFB13E91D4700B0EF11 /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
+		345D8DFC13E91D4700B0EF11 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		3465BD4F13ECB4C200B8A9E8 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		3465BD5013ECB4C200B8A9E8 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		3465BD5113ECB4C200B8A9E8 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		3465BD5213ECB4C200B8A9E8 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		3465BD5313ECB4C200B8A9E8 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		3465BD5413ECB4C200B8A9E8 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+		3465BD6713ECC0FD00B8A9E8 /* one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one@2x.png"; sourceTree = "<group>"; };
+		3465BD6813ECC0FD00B8A9E8 /* two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two@2x.png"; sourceTree = "<group>"; };
+		3465BD6913ECC0FD00B8A9E8 /* three@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three@2x.png"; sourceTree = "<group>"; };
+		3465BD6A13ECC0FD00B8A9E8 /* four@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "four@2x.png"; sourceTree = "<group>"; };
+		3465BD6B13ECC0FD00B8A9E8 /* five@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "five@2x.png"; sourceTree = "<group>"; };
+		3465BD6C13ECC0FD00B8A9E8 /* six@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "six@2x.png"; sourceTree = "<group>"; };
+		3482121F13D66310006CA6BD /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3482122013D66310006CA6BD /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		3488615013ECCBCF00BA3628 /* wagerboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wagerboard@2x.png"; sourceTree = "<group>"; };
+		3488615313ECCC5F00BA3628 /* wagerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wagerboard.png; sourceTree = "<group>"; };
+		3488615513ECD1B500BA3628 /* sixDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sixDark@2x.png"; sourceTree = "<group>"; };
+		3488615613ECD1B500BA3628 /* fiveDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fiveDark@2x.png"; sourceTree = "<group>"; };
+		3488615713ECD1B500BA3628 /* fourDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fourDark@2x.png"; sourceTree = "<group>"; };
+		3488615813ECD1B500BA3628 /* threeDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "threeDark@2x.png"; sourceTree = "<group>"; };
+		3488615913ECD1B500BA3628 /* twoDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twoDark@2x.png"; sourceTree = "<group>"; };
+		3488615A13ECD1B500BA3628 /* oneDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oneDark@2x.png"; sourceTree = "<group>"; };
+		3491537C13D94AEC00497441 /* GameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTableViewCell.h; sourceTree = "<group>"; };
+		3491537D13D94AEC00497441 /* GameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTableViewCell.m; sourceTree = "<group>"; };
+		34A24D2A13E7D775005979F3 /* WagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WagerViewController.h; sourceTree = "<group>"; };
+		34A24D2B13E7D775005979F3 /* WagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WagerViewController.m; sourceTree = "<group>"; };
+		34B1EFBD13EB7E0700EAF119 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		34B1EFCD13EC70B500EAF119 /* win.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = win.caf; sourceTree = "<group>"; };
+		34B1EFD413EC7D3B00EAF119 /* roll.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = roll.caf; sourceTree = "<group>"; };
+		34B1EFD613EC7DA900EAF119 /* drop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = drop.caf; sourceTree = "<group>"; };
+		34C5998D13EC9DF6009017AA /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		34C5998F13EC9E35009017AA /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		34C5999113EC9E50009017AA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		34C5999313EC9E7F009017AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		34C716BD13D22AB500DBB7C6 /* Back Alley DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Back Alley DS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C716C113D22AB500DBB7C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34C716C313D22AB500DBB7C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34C716C513D22AB500DBB7C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34C716C913D22AB500DBB7C6 /* BackAlleyDiceShooter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackAlleyDiceShooter-Info.plist"; sourceTree = "<group>"; };
+		34C716CB13D22AB500DBB7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34C716CD13D22AB500DBB7C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34C716CF13D22AB500DBB7C6 /* BackAlleyDiceShooter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackAlleyDiceShooter-Prefix.pch"; sourceTree = "<group>"; };
+		34C716D013D22AB500DBB7C6 /* BackAlleyDiceShooterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackAlleyDiceShooterAppDelegate.h; sourceTree = "<group>"; };
+		34C716D113D22AB500DBB7C6 /* BackAlleyDiceShooterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackAlleyDiceShooterAppDelegate.m; sourceTree = "<group>"; };
+		34C716D413D22AB500DBB7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		34C716D613D22AB500DBB7C6 /* GameBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameBoardViewController.h; sourceTree = "<group>"; };
+		34C716D813D22AB500DBB7C6 /* GameBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameBoardViewController.m; sourceTree = "<group>"; };
+		34C716DF13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackAlleyDiceShooterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C716E013D22AB500DBB7C6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		34C716E913D22AB500DBB7C6 /* BackAlleyDiceShooterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackAlleyDiceShooterTests-Info.plist"; sourceTree = "<group>"; };
+		34C716EB13D22AB500DBB7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34C716ED13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackAlleyDiceShooterTests.h; sourceTree = "<group>"; };
+		34C716EF13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackAlleyDiceShooterTests.m; sourceTree = "<group>"; };
+		34C716F913D22B6000DBB7C6 /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
+		34C716FA13D22B6000DBB7C6 /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
+		34C7170813D2E11E00DBB7C6 /* GameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEngine.h; sourceTree = "<group>"; };
+		34C7170913D2E11E00DBB7C6 /* GameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameEngine.m; sourceTree = "<group>"; };
+		34D5DE1A13EB12AD00E7BF6F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		97EA377E1E37ADDF00462072 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C716BA13D22AB500DBB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B1EFBE13EB7E0700EAF119 /* AVFoundation.framework in Frameworks */,
+				34C716C213D22AB500DBB7C6 /* UIKit.framework in Frameworks */,
+				34C716C413D22AB500DBB7C6 /* Foundation.framework in Frameworks */,
+				34C716C613D22AB500DBB7C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C716DB13D22AB500DBB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C716E113D22AB500DBB7C6 /* SenTestingKit.framework in Frameworks */,
+				34C716E213D22AB500DBB7C6 /* UIKit.framework in Frameworks */,
+				34C716E313D22AB500DBB7C6 /* Foundation.framework in Frameworks */,
+				34C716E413D22AB500DBB7C6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3465BD4E13ECB4A700B8A9E8 /* Die */ = {
+			isa = PBXGroup;
+			children = (
+				3488615513ECD1B500BA3628 /* sixDark@2x.png */,
+				3488615613ECD1B500BA3628 /* fiveDark@2x.png */,
+				3488615713ECD1B500BA3628 /* fourDark@2x.png */,
+				3488615813ECD1B500BA3628 /* threeDark@2x.png */,
+				3488615913ECD1B500BA3628 /* twoDark@2x.png */,
+				3488615A13ECD1B500BA3628 /* oneDark@2x.png */,
+				3465BD6713ECC0FD00B8A9E8 /* one@2x.png */,
+				3465BD6813ECC0FD00B8A9E8 /* two@2x.png */,
+				3465BD6913ECC0FD00B8A9E8 /* three@2x.png */,
+				3465BD6A13ECC0FD00B8A9E8 /* four@2x.png */,
+				3465BD6B13ECC0FD00B8A9E8 /* five@2x.png */,
+				3465BD6C13ECC0FD00B8A9E8 /* six@2x.png */,
+				3465BD4F13ECB4C200B8A9E8 /* one.png */,
+				3465BD5013ECB4C200B8A9E8 /* two.png */,
+				3465BD5113ECB4C200B8A9E8 /* three.png */,
+				3465BD5213ECB4C200B8A9E8 /* four.png */,
+				3465BD5313ECB4C200B8A9E8 /* five.png */,
+				3465BD5413ECB4C200B8A9E8 /* six.png */,
+			);
+			name = Die;
+			sourceTree = "<group>";
+		};
+		34C716B213D22AB500DBB7C6 = {
+			isa = PBXGroup;
+			children = (
+				97EA377E1E37ADDF00462072 /* Media.xcassets */,
+				34C716C713D22AB500DBB7C6 /* BackAlleyDiceShooter */,
+				34C716E713D22AB500DBB7C6 /* BackAlleyDiceShooterTests */,
+				34C716C013D22AB500DBB7C6 /* Frameworks */,
+				34C716BE13D22AB500DBB7C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34C716BE13D22AB500DBB7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C716BD13D22AB500DBB7C6 /* Back Alley DS.app */,
+				34C716DF13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C716C013D22AB500DBB7C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B1EFBD13EB7E0700EAF119 /* AVFoundation.framework */,
+				34C716C113D22AB500DBB7C6 /* UIKit.framework */,
+				34C716C313D22AB500DBB7C6 /* Foundation.framework */,
+				34C716C513D22AB500DBB7C6 /* CoreGraphics.framework */,
+				34C716E013D22AB500DBB7C6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34C716C713D22AB500DBB7C6 /* BackAlleyDiceShooter */ = {
+			isa = PBXGroup;
+			children = (
+				3488615013ECCBCF00BA3628 /* wagerboard@2x.png */,
+				3488615313ECCC5F00BA3628 /* wagerboard.png */,
+				3465BD4E13ECB4A700B8A9E8 /* Die */,
+				34B1EFCD13EC70B500EAF119 /* win.caf */,
+				34C5998D13EC9DF6009017AA /* default@2x.png */,
+				34C5998F13EC9E35009017AA /* default.png */,
+				34C5999113EC9E50009017AA /* icon@2x.png */,
+				34C5999313EC9E7F009017AA /* icon.png */,
+				34B1EFD613EC7DA900EAF119 /* drop.caf */,
+				34B1EFD413EC7D3B00EAF119 /* roll.caf */,
+				345D8DFC13E91D4700B0EF11 /* gameboard@2x.png */,
+				345D8DFB13E91D4700B0EF11 /* gameboard.png */,
+				3482121F13D66310006CA6BD /* GameViewController.h */,
+				3482122013D66310006CA6BD /* GameViewController.m */,
+				34C716D013D22AB500DBB7C6 /* BackAlleyDiceShooterAppDelegate.h */,
+				34C716D113D22AB500DBB7C6 /* BackAlleyDiceShooterAppDelegate.m */,
+				34C716D313D22AB500DBB7C6 /* MainStoryboard.storyboard */,
+				3491537C13D94AEC00497441 /* GameTableViewCell.h */,
+				3491537D13D94AEC00497441 /* GameTableViewCell.m */,
+				34C716D613D22AB500DBB7C6 /* GameBoardViewController.h */,
+				34C716D813D22AB500DBB7C6 /* GameBoardViewController.m */,
+				34C716C813D22AB500DBB7C6 /* Supporting Files */,
+				34C716F913D22B6000DBB7C6 /* Die.h */,
+				34C716FA13D22B6000DBB7C6 /* Die.m */,
+				34C7170813D2E11E00DBB7C6 /* GameEngine.h */,
+				34C7170913D2E11E00DBB7C6 /* GameEngine.m */,
+				341B511F13DA91DD00272018 /* Games.plist */,
+				34A24D2A13E7D775005979F3 /* WagerViewController.h */,
+				34A24D2B13E7D775005979F3 /* WagerViewController.m */,
+				34D5DE1A13EB12AD00E7BF6F /* Constants.h */,
+			);
+			path = BackAlleyDiceShooter;
+			sourceTree = "<group>";
+		};
+		34C716C813D22AB500DBB7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C716C913D22AB500DBB7C6 /* BackAlleyDiceShooter-Info.plist */,
+				34C716CA13D22AB500DBB7C6 /* InfoPlist.strings */,
+				34C716CD13D22AB500DBB7C6 /* main.m */,
+				34C716CF13D22AB500DBB7C6 /* BackAlleyDiceShooter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34C716E713D22AB500DBB7C6 /* BackAlleyDiceShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				34C716ED13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.h */,
+				34C716EF13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.m */,
+				34C716E813D22AB500DBB7C6 /* Supporting Files */,
+			);
+			path = BackAlleyDiceShooterTests;
+			sourceTree = "<group>";
+		};
+		34C716E813D22AB500DBB7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C716E913D22AB500DBB7C6 /* BackAlleyDiceShooterTests-Info.plist */,
+				34C716EA13D22AB500DBB7C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C716BC13D22AB500DBB7C6 /* BackAlleyDiceShooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C716F313D22AB500DBB7C6 /* Build configuration list for PBXNativeTarget "BackAlleyDiceShooter" */;
+			buildPhases = (
+				34C716B913D22AB500DBB7C6 /* Sources */,
+				34C716BA13D22AB500DBB7C6 /* Frameworks */,
+				34C716BB13D22AB500DBB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackAlleyDiceShooter;
+			productName = BackAlleyDiceShooter;
+			productReference = 34C716BD13D22AB500DBB7C6 /* Back Alley DS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34C716DE13D22AB500DBB7C6 /* BackAlleyDiceShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C716F613D22AB500DBB7C6 /* Build configuration list for PBXNativeTarget "BackAlleyDiceShooterTests" */;
+			buildPhases = (
+				34C716DA13D22AB500DBB7C6 /* Sources */,
+				34C716DB13D22AB500DBB7C6 /* Frameworks */,
+				34C716DC13D22AB500DBB7C6 /* Resources */,
+				34C716DD13D22AB500DBB7C6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34C716E613D22AB500DBB7C6 /* PBXTargetDependency */,
+			);
+			name = BackAlleyDiceShooterTests;
+			productName = BackAlleyDiceShooterTests;
+			productReference = 34C716DF13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C716B413D22AB500DBB7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Black Ninja Software";
+			};
+			buildConfigurationList = 34C716B713D22AB500DBB7C6 /* Build configuration list for PBXProject "BackAlleyDiceShooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34C716B213D22AB500DBB7C6;
+			productRefGroup = 34C716BE13D22AB500DBB7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C716BC13D22AB500DBB7C6 /* BackAlleyDiceShooter */,
+				34C716DE13D22AB500DBB7C6 /* BackAlleyDiceShooterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C716BB13D22AB500DBB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C716CC13D22AB500DBB7C6 /* InfoPlist.strings in Resources */,
+				34C716D513D22AB500DBB7C6 /* MainStoryboard.storyboard in Resources */,
+				34C716D713D22AB500DBB7C6 /* GameBoardViewController.h in Resources */,
+				341B512013DA91DD00272018 /* Games.plist in Resources */,
+				345D8DFD13E91D4700B0EF11 /* gameboard.png in Resources */,
+				345D8DFE13E91D4700B0EF11 /* gameboard@2x.png in Resources */,
+				34B1EFCE13EC70B500EAF119 /* win.caf in Resources */,
+				34B1EFD513EC7D3B00EAF119 /* roll.caf in Resources */,
+				34B1EFD713EC7DA900EAF119 /* drop.caf in Resources */,
+				34C5998E13EC9DF6009017AA /* default@2x.png in Resources */,
+				34C5999013EC9E35009017AA /* default.png in Resources */,
+				34C5999213EC9E50009017AA /* icon@2x.png in Resources */,
+				34C5999413EC9E7F009017AA /* icon.png in Resources */,
+				3465BD5513ECB4C200B8A9E8 /* one.png in Resources */,
+				3465BD5613ECB4C200B8A9E8 /* two.png in Resources */,
+				3465BD5713ECB4C200B8A9E8 /* three.png in Resources */,
+				3465BD5813ECB4C200B8A9E8 /* four.png in Resources */,
+				3465BD5913ECB4C200B8A9E8 /* five.png in Resources */,
+				3465BD5A13ECB4C200B8A9E8 /* six.png in Resources */,
+				3465BD6D13ECC0FD00B8A9E8 /* one@2x.png in Resources */,
+				97EA377F1E37ADDF00462072 /* Media.xcassets in Resources */,
+				3465BD6E13ECC0FD00B8A9E8 /* two@2x.png in Resources */,
+				3465BD6F13ECC0FD00B8A9E8 /* three@2x.png in Resources */,
+				3465BD7013ECC0FD00B8A9E8 /* four@2x.png in Resources */,
+				3465BD7113ECC0FD00B8A9E8 /* five@2x.png in Resources */,
+				3465BD7213ECC0FD00B8A9E8 /* six@2x.png in Resources */,
+				3488615113ECCBCF00BA3628 /* wagerboard@2x.png in Resources */,
+				3488615413ECCC5F00BA3628 /* wagerboard.png in Resources */,
+				3488615B13ECD1B500BA3628 /* sixDark@2x.png in Resources */,
+				3488615C13ECD1B500BA3628 /* fiveDark@2x.png in Resources */,
+				3488615D13ECD1B500BA3628 /* fourDark@2x.png in Resources */,
+				3488615E13ECD1B500BA3628 /* threeDark@2x.png in Resources */,
+				3488615F13ECD1B500BA3628 /* twoDark@2x.png in Resources */,
+				3488616013ECD1B500BA3628 /* oneDark@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C716DC13D22AB500DBB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C716EC13D22AB500DBB7C6 /* InfoPlist.strings in Resources */,
+				34C716EE13D22AB500DBB7C6 /* BackAlleyDiceShooterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34C716DD13D22AB500DBB7C6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C716B913D22AB500DBB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C716CE13D22AB500DBB7C6 /* main.m in Sources */,
+				34C716D213D22AB500DBB7C6 /* BackAlleyDiceShooterAppDelegate.m in Sources */,
+				34C716D913D22AB500DBB7C6 /* GameBoardViewController.m in Sources */,
+				34C716FB13D22B6000DBB7C6 /* Die.m in Sources */,
+				34C7170A13D2E11E00DBB7C6 /* GameEngine.m in Sources */,
+				3482122113D66310006CA6BD /* GameViewController.m in Sources */,
+				3491537E13D94AEC00497441 /* GameTableViewCell.m in Sources */,
+				34A24D2C13E7D775005979F3 /* WagerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C716DA13D22AB500DBB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C716F013D22AB500DBB7C6 /* BackAlleyDiceShooterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34C716E613D22AB500DBB7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34C716BC13D22AB500DBB7C6 /* BackAlleyDiceShooter */;
+			targetProxy = 34C716E513D22AB500DBB7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34C716CA13D22AB500DBB7C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C716CB13D22AB500DBB7C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34C716D313D22AB500DBB7C6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C716D413D22AB500DBB7C6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		34C716EA13D22AB500DBB7C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C716EB13D22AB500DBB7C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C716F113D22AB500DBB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34C716F213D22AB500DBB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C716F413D22AB500DBB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackAlleyDiceShooter/BackAlleyDiceShooter-Prefix.pch";
+				INFOPLIST_FILE = "BackAlleyDiceShooter/BackAlleyDiceShooter-Info.plist";
+				PRODUCT_NAME = "Back Alley DS";
+				VERSION_INFO_BUILDER = app;
+				VERSION_INFO_EXPORT_DECL = BackAlleyDice;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34C716F513D22AB500DBB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackAlleyDiceShooter/BackAlleyDiceShooter-Prefix.pch";
+				INFOPLIST_FILE = "BackAlleyDiceShooter/BackAlleyDiceShooter-Info.plist";
+				PRODUCT_NAME = "Back Alley DS";
+				VERSION_INFO_BUILDER = app;
+				VERSION_INFO_EXPORT_DECL = BackAlleyDice;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34C716F713D22AB500DBB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Back Alley DS.app/Back Alley DS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackAlleyDiceShooter/BackAlleyDiceShooter-Prefix.pch";
+				INFOPLIST_FILE = "BackAlleyDiceShooterTests/BackAlleyDiceShooterTests-Info.plist";
+				ORDER_FILE = "$(BUILT_PRODUCTS_DIR)/Back Alley DS.app/Back Alley DS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		34C716F813D22AB500DBB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Back Alley DS.app/BackAlleyDiceShooter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackAlleyDiceShooter/BackAlleyDiceShooter-Prefix.pch";
+				INFOPLIST_FILE = "BackAlleyDiceShooterTests/BackAlleyDiceShooterTests-Info.plist";
+				ORDER_FILE = "$(BUILT_PRODUCTS_DIR)/Back Alley DS.app/Back Alley DS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C716B713D22AB500DBB7C6 /* Build configuration list for PBXProject "BackAlleyDiceShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C716F113D22AB500DBB7C6 /* Debug */,
+				34C716F213D22AB500DBB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C716F313D22AB500DBB7C6 /* Build configuration list for PBXNativeTarget "BackAlleyDiceShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C716F413D22AB500DBB7C6 /* Debug */,
+				34C716F513D22AB500DBB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C716F613D22AB500DBB7C6 /* Build configuration list for PBXNativeTarget "BackAlleyDiceShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C716F713D22AB500DBB7C6 /* Debug */,
+				34C716F813D22AB500DBB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34C716B413D22AB500DBB7C6 /* Project object */;
+}
